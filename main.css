@@ -1,0 +1,28 @@
+.menu {
+    color:aliceblue;
+}
+
+
+#CP {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 0;
+    border: 5px solid;
+    padding: 2rem;
+    border-style: inset;
+    width: fit-content;
+}
+#CP[data-sizing="intrinsic"]{
+    width: min-content;
+}
+
+#CP:hover {
+    background: aqua;
+    color: gray;
+    text-decoration: none;
+}
+#CP:active{
+    transform: scale(0.99);
+    box-shadow: none;
+}
